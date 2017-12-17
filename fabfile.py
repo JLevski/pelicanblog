@@ -3,7 +3,8 @@ import fabric.contrib.project as project
 import os
 import shutil
 import sys
-import SocketServer
+import socketserver
+from datetime import datetime
 
 from pelican.server import ComplexHTTPRequestHandler
 
@@ -26,23 +27,28 @@ env.github_pages_branch = "master"
 # Port for `serve`
 PORT = 8000
 
+
 def clean():
     """Remove generated files"""
     if os.path.isdir(DEPLOY_PATH):
         shutil.rmtree(DEPLOY_PATH)
         os.makedirs(DEPLOY_PATH)
 
+
 def build():
     """Build local version of site"""
     local('pelican -s pelicanconf.py')
+
 
 def rebuild():
     """`build` with the delete switch"""
     local('pelican -d -s pelicanconf.py')
 
+
 def regenerate():
     """Automatically regenerate site upon file modification"""
     local('pelican -r -s pelicanconf.py')
+
 
 def serve():
     """Serve site at http://localhost:8000/"""
@@ -56,14 +62,17 @@ def serve():
     sys.stderr.write('Serving on port {0} ...\n'.format(PORT))
     server.serve_forever()
 
+
 def reserve():
     """`build`, then `serve`"""
     build()
     serve()
 
+
 def preview():
     """Build production version of site"""
     local('pelican -s publishconf.py')
+
 
 def cf_upload():
     """Publish to Rackspace Cloud Files"""
@@ -73,6 +82,7 @@ def cf_upload():
               '-U {cloudfiles_username} '
               '-K {cloudfiles_api_key} '
               'upload -c {cloudfiles_container} .'.format(**env))
+
 
 @hosts(production)
 def publish():
@@ -86,7 +96,44 @@ def publish():
         extra_opts='-c',
     )
 
+
 def gh_pages():
     """Publish to GitHub Pages"""
     rebuild()
     local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))
+
+
+TEMPLATE = """
+{title}
+{hashes}
+
+:date: {year}-{month}-{day} {hour}:{minute:02d}
+:tags:
+:category:
+:slug: {slug}
+:summary:
+:status: draft
+
+
+"""
+
+
+def make_entry(title):
+    """Create new post with prepopulated template"""
+    today = datetime.today()
+    slug = title.lower().strip().replace(' ', '-')
+    f_create = "content/posts/{}_{:0>2}_{:0>2}_{}.rst".format(today.year,
+                                                              today.month,
+                                                              today.day,
+                                                              slug)
+    t = TEMPLATE.strip().format(title=title,
+                                hashes='#' * len(title),
+                                year=today.year,
+                                month=today.month,
+                                day=today.day,
+                                hour=today.hour,
+                                minute=today.minute,
+                                slug=slug)
+    with open(f_create, 'w') as w:
+        w.write(t)
+    print("File created -> " + f_create)
