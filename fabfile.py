@@ -104,15 +104,13 @@ def gh_pages():
 
 
 TEMPLATE = """
-{title}
-{hashes}
-
-:date: {year}-{month}-{day} {hour}:{minute:02d}
-:tags:
-:category:
-:slug: {slug}
-:summary:
-:status: draft
+Title: {title}
+Date: {year}-{month}-{day} {hour}:{minute:02d}
+Category:
+Tags:
+Slug: {slug}
+Summary:
+Status: draft
 
 
 """
@@ -122,12 +120,11 @@ def make_entry(title):
     """Create new post with prepopulated template"""
     today = datetime.today()
     slug = title.lower().strip().replace(' ', '-')
-    f_create = "content/posts/{}_{:0>2}_{:0>2}_{}.rst".format(today.year,
-                                                              today.month,
-                                                              today.day,
-                                                              slug)
+    f_create = "content/Posts/{}_{:0>2}_{:0>2}_{}.md".format(today.year,
+                                                             today.month,
+                                                             today.day,
+                                                             slug)
     t = TEMPLATE.strip().format(title=title,
-                                hashes='#' * len(title),
                                 year=today.year,
                                 month=today.month,
                                 day=today.day,

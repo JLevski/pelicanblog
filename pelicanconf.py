@@ -5,8 +5,14 @@ from __future__ import unicode_literals
 AUTHOR = 'Josh Levin'
 SITENAME = "Go When You're Ready"
 SITEURL = ''
+# SITELOGO = 'images/SITELOGO'
+# SITELOGO_SIZE = 20
+# FAVICON = 'images/FAVICON'
 
 PATH = 'content'
+ARTICLE_PATHS = ['Posts']
+STATIC_PATHS = ['images']
+PLUGIN_PATHS = ['plugins']
 
 TIMEZONE = 'Europe/Berlin'
 
@@ -27,9 +33,12 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('Follow me on Twitter', 'https://twitter.com/popt_culture'),
+          ('Github', 'https://github.com/JLevski'),
           )
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 10
+
+DISPLAY_PAGES_ON_MENU = True
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
