@@ -6,7 +6,7 @@ Slug: a-strangelove-for-consulting
 Summary: A couple of reasons why leaving consulting was the right decision for me
 Status: published
 
-Don't get me wrong - #Consultinglife is great. I've worked with some of the smartest people I know, on fascinating projects with a lot of responsibility for billion dollar companies with traditions of success (and their fair share of challenges)
+Don't get me wrong - #Consultinglife is great. I've worked with some of the smartest people I know, on fascinating projects, with a lot of responsibility, for billion dollar companies...  
 
 That said, I had a couple of reasons for leaving:  
 

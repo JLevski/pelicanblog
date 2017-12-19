@@ -5,13 +5,18 @@ from __future__ import unicode_literals
 AUTHOR = 'Josh Levin'
 SITENAME = "Go When You're Ready"
 SITEURL = ''
-# SITELOGO = 'images/SITELOGO'
-# SITELOGO_SIZE = 20
-# FAVICON = 'images/FAVICON'
 
 PATH = 'content'
 ARTICLE_PATHS = ['Posts']
-STATIC_PATHS = ['images']
+STATIC_PATHS = [
+                'images',
+                'extra',
+]
+EXTRA_PATHS_METADATA = {
+                        'extra/favicon.ico': {'path': 'favicon.ico'},
+                        'extra/robots.txt': {'path': 'robots.txt'},
+}
+
 PLUGIN_PATHS = ['plugins']
 
 TIMEZONE = 'Europe/Berlin'
@@ -26,17 +31,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Pelican', 'http://getpelican.com/'),)
 
 # Social widget
 SOCIAL = (('Follow me on Twitter', 'https://twitter.com/popt_culture'),
           ('Github', 'https://github.com/JLevski'),
           )
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 DISPLAY_PAGES_ON_MENU = True
 
