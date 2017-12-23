@@ -9,23 +9,25 @@ SITEURL = 'https://jlevski.github.io/pelicanblog'
 PATH = 'content'
 ARTICLE_PATHS = ['Posts']
 PAGE_PATHS = ['pages']
-STATIC_PATHS = [
-                'images',
-                'extra',
-]
-EXTRA_PATHS_METADATA = {
-                        'extra/favicon.ico': {'path': 'favicon.ico'},
-                        'extra/robots.txt': {'path': 'robots.txt'},
+STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico']
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
-THEME = "theme/pelican-themes/pelican-bootstrap3"
-BOOTSTRAP_NAVBAR_INVERSE = False
-FAVICON = 'extra/favicon.ico'
+THEME = 'theme/pelican-bootstrap3-lovers'
+BOOTSTRAP_THEME = 'lovers'
+# PROFILE_PICTURE = 'profile_pic'
+# BOOTSTRAP_NAVBAR_INVERSE = False
+# FAVICON = 'extra/favicon.ico'
 
-PLUGIN_PATHS = ['plugins/pelican-plugins']
-PLUGINS = ['i18n_subsites']
+# PLUGIN_PATHS = ['plugins/pelican-plugins']
+# PLUGINS = ['i18n_subsites']
+#
+# JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
-JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+DISQUS_SITENAME = "Go When You're Ready"  # use this to identify
+DISQUS_SHORTNAME = 'https-jlevski-github-io-pelicanblog'
 
 TIMEZONE = 'Europe/Berlin'
 
@@ -35,7 +37,7 @@ DEFAULT_LANG = 'en'
 LINKS = (('Pelican', 'http://getpelican.com/'),)
 
 # Social widget
-SOCIAL = (('Follow me on Twitter', 'https://twitter.com/popt_culture'),
+SOCIAL = (('Twitter', 'https://twitter.com/popt_culture'),
           ('Github', 'https://github.com/JLevski'),
           )
 
