@@ -17,7 +17,8 @@ EXTRA_PATH_METADATA = {
 
 THEME = 'theme/pelican-bootstrap3-lovers'
 BOOTSTRAP_THEME = 'lovers'
-# PROFILE_PICTURE = 'profile_pic'
+PROFILE_PICTURE = 'profile_pic.png'
+HEADER_IMAGE = 'profile_pic.png'
 # BOOTSTRAP_NAVBAR_INVERSE = False
 # FAVICON = 'extra/favicon.ico'
 
