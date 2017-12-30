@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Josh Levin'
-SITENAME = "Go When You're Ready"
+SITENAME = "Go When Ready"
 SITEURL = 'https://jlevski.github.io/pelicanblog'
 
 PATH = 'content'
@@ -15,17 +15,25 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
-THEME = 'theme/pelican-bootstrap3-lovers'
+THEME = 'theme/pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'lovers'
-PROFILE_PICTURE = 'profile_pic.png'
-HEADER_IMAGE = 'profile_pic.png'
-# BOOTSTRAP_NAVBAR_INVERSE = False
+AVATAR = 'images/profile_pic.png'
+ABOUT_ME = 'Just trying to figure my life out. One country at a time.'
+BANNER = 'images/banner.png'
+# BANNER_SUBTITLE = 'Testing... 1, 2, 3'
+BANNER_ALL_PAGES = True
+# BOOTSTRAP_NAVBAR_INVERSE = True
 # FAVICON = 'extra/favicon.ico'
 
-# PLUGIN_PATHS = ['plugins/pelican-plugins']
-# PLUGINS = ['i18n_subsites']
-#
-# JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+# DISPLAY_ARCHIVE_ON_SIDEBAR = True
+# MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+# SIDEBAR_ON_LEFT = False
+
+
+PLUGIN_PATHS = ['plugins/pelican-plugins']
+PLUGINS = ['i18n_subsites']
+
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 DISQUS_SITENAME = "Go When You're Ready"  # use this to identify
 DISQUS_SHORTNAME = 'https-jlevski-github-io-pelicanblog'
@@ -47,6 +55,3 @@ DEFAULT_PAGINATION = 5
 DISPLAY_PAGES_ON_MENU = True
 
 RELATIVE_URLS = True
-
-# To be added - archives
-# YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'

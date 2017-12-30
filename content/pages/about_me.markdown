@@ -9,6 +9,6 @@ The struggles of an insecure, overachiever to relax and appreciate just how luck
 
 At the same time, writing this is about feeling creative and playful with words again, and to feel like I've learnt something in the last couple of years. To that end:  
 
-- No business-speak. When it took me 15 minutes to think of how a normal person would say "deep dive", I knew I had a problem  
-- This is in Markdown, on a Pelican static blog (wooh Python), and committed to Git so that everything is saved for me to cringe over in a couple of years  
-- Pop-culture references and occasional profanity are staples of my spoken English. So are puns and the straying towards the pretentious  
+- No business-speak. It took me 15 minutes to think of how a normal person would say "deep dive"  
+- This blog uses Pelican and on GH so that any regrets are committed to eternity  
+- Pop-culture and profanity are my linguistic staples. So are puns and unnecessarily long words  
