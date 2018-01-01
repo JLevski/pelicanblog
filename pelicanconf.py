@@ -26,8 +26,9 @@ BANNER_ALL_PAGES = True
 # FAVICON = 'extra/favicon.ico'
 
 # DISPLAY_ARCHIVE_ON_SIDEBAR = True
-# MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+# MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%b}/index.html'
 # SIDEBAR_ON_LEFT = False
+AUTHORS_SAVE_AS = ''
 
 
 PLUGIN_PATHS = ['plugins/pelican-plugins']
