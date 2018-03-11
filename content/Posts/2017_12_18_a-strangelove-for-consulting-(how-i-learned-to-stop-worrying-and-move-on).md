@@ -1,8 +1,8 @@
-Title: A Strangelove for Consulting (How I Learned to Stop Worrying and Move On)
+Title: After Consulting
 Date: 2017-12-18 12:18
 Category:
 Tags:
-Slug: a-strangelove-for-consulting
+Slug: after-consulting
 Summary: A couple of reasons why leaving consulting was the right decision for me
 Status: published
 
