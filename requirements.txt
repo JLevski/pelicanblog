@@ -17,7 +17,7 @@ idna==2.6                 # via cryptography
 jinja2==2.10              # via pelican
 markdown==2.6.11
 markupsafe==1.0           # via jinja2
-paramiko==2.4.0           # via fabric3
+paramiko==2.4.1           # via fabric3
 pelican==3.7.1
 pyasn1==0.4.2             # via paramiko
 pycparser==2.18           # via cffi
