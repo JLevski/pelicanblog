@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Josh Levin'
-SITENAME = "Go When Ready"
+SITENAME = "An Amalgam"
 SITEURL = 'https://jlevski.github.io/pelicanblog'
 
 PATH = 'content'
