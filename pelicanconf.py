@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Josh Levin'
-SITENAME = "Go When Ready"
+SITENAME = "An Amalgam"
 SITEURL = 'https://jlevski.github.io/pelicanblog'
 
 PATH = 'content'
@@ -18,7 +18,7 @@ EXTRA_PATH_METADATA = {
 THEME = 'theme/pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'lovers'
 AVATAR = 'images/profile_pic.png'
-ABOUT_ME = 'Just trying to figure my life out. One country at a time.'
+ABOUT_ME = 'Just trying to figure my life out. One country at a time. Also, I built this blog myself so it reflects my lack of a design aesthetic.'
 BANNER = 'images/banner.png'
 # BANNER_SUBTITLE = 'Testing... 1, 2, 3'
 BANNER_ALL_PAGES = True
