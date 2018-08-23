@@ -3,7 +3,7 @@ Date: 2018-8-5 21:57
 Category:
 Tags:
 Slug: dealing-with-a-spiral
-Summary:
+Summary: How I try to manage those bad days (weeks, months...)
 Status: published
 
 You know when you have a really bad day, and then a really bad week, that turns into a bad month. And you know you're in a spiral, and you can even visualise what needs to change. Why am I turning up to work grumpy, unmotivated to write or learn, sinking slowly into the couch, and into self-loathing  
