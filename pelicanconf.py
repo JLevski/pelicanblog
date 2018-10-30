@@ -38,6 +38,7 @@ JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 DISQUS_SITENAME = "Go When You're Ready"  # use this to identify
 DISQUS_SHORTNAME = 'https-jlevski-github-io-pelicanblog'
+DISQUSURL = 'https://jlevski.github.io/pelicanblog/'
 
 TIMEZONE = 'Europe/Berlin'
 
