@@ -4,23 +4,17 @@ Category:
 Tags:
 Slug: mzungu-mzungu
 Summary: Cultural sensitivity and being that white guy in Kenya
-Status: draft
+Status: published
 
-This was on my mind a lot, and although I'm not the best person to deal with this topic, I'll try - in a fumbling, but well-intentioned way  
+Cultural sensitivity was on my mind a lot in Nairobi. As a first generation Russian/Moldovan-Jew in Australia, I have a history with a token amount of casual anti-semitism. But to be honest, it has been pretty ok. Certainly I've never had anyone assume I'm not Australian for my skin colour, I don't get checked going through customs, and if I knew how to drive, I'm pretty sure that I wouldn't have a problem getting pulled over either.   
 
-As a first generation Russian/Moldovan-Jew in Australia, I'm aware that I come with some ethnic history. I have some different views on progress, relationships and money, coloured by the experiences of my parents and how they chose to impart them to me. Moreover, I've faced token amount of racism - mostly in the form of casual anti-semitism. And even that has been ok, because let's be honest, I'm pretty casually Jewish. Certainly I've never had anyone assume I'm not Australian for my skin colour, I don't get checked going through customs, and if I knew how to drive, I'm pretty sure that I wouldn't have a problem getting pulled over either. So yeah, there's a whole set of people in wealthy Anglo "first world" countries that have it much worse than me on an ethnic / racial basis.  
+Anyway, working for a local NGO in Kenya, I wanted to avoid being another white guy to Kenya to "save them". Which I hope I managed to. And had a bunch of interesting experiences and life lessons along the way.  
 
-(Aside 1: This is not to dismiss any other form of discrimination)  
-(Aside 2: Fun fact about the term "first world". The term initially referred to the Cold War conflict. America and allies were First World, the Soviet Union was Second World, and unaligned nations were Third World. Which makes Switzerland Third World. Nonetheless, the term should be retired - it tends to have really colonial implications in the modern context)  
+Some lessons (for me):  
+- Not taking for granted interactions with authority. They don't always have the your best interest at heart. It's not that they are inherently bad, just self-interested
+- Don't assume the issues that are important or relevant to me, are the same for everyone. I might care about the left-right political spectrum, but when you are hustling for food or hoping for basic infrastructure, that's not your biggest concern. Your politics probably focus more on concrete improvements in your standard of living than a theoretical approach to this
+- That you only get closer to understanding inequality by experiencing it - or at least listening to those that live it. There's a whole world of difference between a farmer praying for rain to feed her family and being conceptually aware that inequality exists somewhere in the world
 
-Anyway, what I wanted to be careful of was being another white guy to Kenya to "save them". Particularly given I was going to be working for yet another NGO. And while I managed to avoid the saviour complex, on the ground things aren't exactly as simple as all that.  
-
-In Kenya, everybody is about the hustle. One friend works an IT job, while creating websites for businesses, running a blog / news site, and building a marketplace for farming advice on the side. And expats form a weird aspect of that world - an opportunity to make some money.
-
-So what have I learnt, coming back from the trip?  
-- Not taking for granted interactions with authority. Definitely don't always have the public's best interest at heart
-- If someone takes offence at something I say, they probably have a good reason. There's no value in saying "I didn't mean it" - try to learn from it and apologise
-- Don't assume the issues that are important or relevant to me, are the same for me. I might care about the left-right political divide, but when you are hustling for food or hoping for basic infrastructure, that's not your biggest concern
-- That the best way to understand what life is like for others is to experience it and to ask questions. Being conceptually "aware" of issues only takes you so far
-
-Yet when you walk around on the streets, you'll hear people calling out to you "mzungu, mzungu" - basically, hey white person. And you'll be asked for money, followed
+Some interesting cultural experiences (by no means exhaustive):
+- East Africa is all about the hustle. One friend works an IT job, while creating websites for businesses, running a blog / news site, and building a marketplace for farming advice on the side. Another interns for an NGO, while doing a marketing masters and designing clothes. Some of their stories are heartbreaking and the commitment incredible
+- For all that being white is a position of priviledge, you can also be something of an exoticism or a target. Walk around and you'll hear people calling out to you "mzungu, mzungu" - basically, hey white person. And you'll be asked for money and followed around by kids (and some adults). If you're a woman you might be judged for the length of your dress. The favourite request of kids in Ethiopia was pens or pencils - even in the most remote areas. It's all part of the deal
