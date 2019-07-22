@@ -17,7 +17,7 @@ jinja2==2.10.1            # via pelican
 markdown==3.0.1
 markupsafe==1.1.1         # via jinja2
 paramiko==2.4.2           # via fabric3
-pelican==3.7.1
+pelican==4.1.0
 pyasn1==0.4.5             # via paramiko
 pycparser==2.19           # via cffi
 pygments==2.3.1           # via pelican
