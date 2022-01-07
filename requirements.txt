@@ -20,7 +20,7 @@ paramiko==2.6.0           # via fabric3
 pelican==3.7.1
 pycparser==2.19           # via cffi
 pygments==2.4.2           # via pelican
-pynacl==1.3.0             # via paramiko
+pynacl==1.5.0             # via paramiko
 python-dateutil==2.8.0    # via pelican
 pytz==2019.2              # via feedgenerator, pelican
 six==1.12.0               # via bcrypt, cryptography, fabric3, feedgenerator, pelican, pynacl, python-dateutil
