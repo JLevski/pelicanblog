@@ -22,6 +22,6 @@ pycparser==2.19           # via cffi
 pygments==2.4.2           # via pelican
 pynacl==1.3.0             # via paramiko
 python-dateutil==2.8.0    # via pelican
-pytz==2019.2              # via feedgenerator, pelican
+pytz==2022.5              # via feedgenerator, pelican
 six==1.12.0               # via bcrypt, cryptography, fabric3, feedgenerator, pelican, pynacl, python-dateutil
 unidecode==1.1.1          # via pelican
