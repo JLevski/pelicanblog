@@ -11,7 +11,7 @@ cffi==1.12.3              # via bcrypt, cryptography, pynacl
 cryptography==2.5         # via paramiko
 docutils==0.15.2          # via pelican
 fabric3==1.14.post1
-feedgenerator==1.9        # via pelican
+feedgenerator==2.1.0        # via pelican
 ghp-import==0.5.5
 jinja2==2.10.1            # via pelican
 markdown==3.1.1
