@@ -6,7 +6,7 @@
 #
 asn1crypto==0.24.0        # via cryptography
 bcrypt==3.1.7             # via paramiko
-blinker==1.4              # via pelican
+blinker==1.6.3              # via pelican
 cffi==1.12.3              # via bcrypt, cryptography, pynacl
 cryptography==2.5         # via paramiko
 docutils==0.15.2          # via pelican
